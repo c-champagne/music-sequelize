@@ -1,7 +1,7 @@
 
 //Setting up Sequelize and info to connect to db.
 const Sequelize = require('sequelize');
-const sequelize = new Sequelize('music_db', 'postgres', '7901', {
+const sequelize = new Sequelize('music_db', 'postgres', 'pwhere', {
     host: 'localhost',
     dialect: 'postgres'
 });

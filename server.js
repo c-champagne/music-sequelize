@@ -3,7 +3,7 @@ const config = {
     port: 5432,
     database: 'music_db',
     user: 'postgres',
-    password: 7901
+    password: 'pwhere'
 }
 
 const pgp = require('pg-promise')();
