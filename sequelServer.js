@@ -62,7 +62,7 @@ let res= [];
                     .then(function artistID(val) {
                         res.push(val);
                         console.log(res);
-                        prompt.done();
+                        prompt.done(); 
                         //Insert goes here
                         album.create({name: res[0], year: res[1], artist_id: res[2]}).then(album => {
                             console.log("Created album:", album.name);
